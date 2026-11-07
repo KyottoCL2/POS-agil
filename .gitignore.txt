@@ -1,0 +1,11 @@
+# Ignorar bases de datos SQLite (para no borrar tu inventario ni el catálogo maestro al actualizar)
+*.db
+*.sqlite3
+
+# Ignorar archivos basura de Python
+__pycache__/
+*.pyc
+
+# Ignorar entornos virtuales (si usas uno)
+venv/
+env/
